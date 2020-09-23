@@ -10,11 +10,7 @@
 
 static constexpr bool IsDelimiter(const char symbol, 
                                   std::string_view delimiters) {
-    for (const auto del: delimiters) {
-        if (symbol == del) return true;
-    }
-
-    return false;
+    return delimiters.find(symbol) != std::string_view::npos;
 }
 
 

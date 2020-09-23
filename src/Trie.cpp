@@ -40,6 +40,5 @@ bool Trie::Search(std::string_view word) const {
 }
 
 uint64_t Trie::WordsCount() const {
-    auto curr = root_.get();
-    return WordsCount(curr);
+    return WordsCount(root_.get());
 }

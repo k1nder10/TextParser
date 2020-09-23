@@ -37,3 +37,6 @@ Therefore there is no need to accomplish the algorithm on 100%
 Idea #2
 
 Use a 'Trie' data structure!
+
+
+In result I have chosen the second idea.

@@ -39,6 +39,7 @@ bool Trie::Search(std::string_view word) const {
     return curr->complete_word;
 }
 
+
 uint64_t Trie::WordsCount() const {
     return WordsCount(root_.get());
 }
